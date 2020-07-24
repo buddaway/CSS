@@ -1,0 +1,11 @@
+grid-column-gap - allows there to be a gap between each of the columns. 
+grid-row-gap - same as above but for row
+grid-gap - does both of the above, add px * 2 to do both at the same time. 
+justify-self: where the item justifies in relation to it's cell (start, center, end) - vertical
+align-self: horizontal of above. 
+justify-items: will justify all items within a container the same way vertically. 
+align-items: as above, horizontal. 
+grid-area: tells where you would like the item
+repeat: can be used with grid-template-columns/rows to make more of the required item
+repeat(auto-fill): will allow to make as many items as wanted. 
+auto-fit: will do the same as above, but continue to stretch items to fit. 
