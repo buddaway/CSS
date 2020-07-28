@@ -8,7 +8,8 @@
     }
 
     .flex-container{
-        display: flex;
+        display: flex; 
+        /* This is the command to use FlexBox */
         justify-content: space-evenly;
     }
     .header-img{
@@ -19,18 +20,23 @@
 </head>
 <header id="header">
 <nav id="nav-bar">
+    <a href="#Cloudspire" class="nav.link"></a>
+    <a href="TooManyBones" class="nav.link"></a>
+    <a href="Hoplomachus" class="nav.link"></a>
+</nav>
 <img src="https://3989ac5bcbe1edfc864a-0a7f10f87519dba22d2dbc6233a731e5.ssl.cf2.rackcdn.com/templatetestJJC2/Store_Menu_Logo_CTG_copy.png" id="header-img">
 
-</nav>
+
 </header>
 <body>
     <br><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/fCXLRSXYMVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/fCXLRSXYMVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Youtube provides it's own embed code -->
     <br><br>
     <div class="flex-container">
-        <div><img src="https://dqzrr9k4bjpzk.cloudfront.net/images/11123270/1338686701.jpg"></div>
-        <div><img src="https://dqzrr9k4bjpzk.cloudfront.net/images/11123270/1338676875.jpg"></div>
-        <div><img src="https://dqzrr9k4bjpzk.cloudfront.net/images/11123270/1338675838.jpg"></div>
+        <div><img src="https://dqzrr9k4bjpzk.cloudfront.net/images/11123270/1338686701.jpg" id="Cloudspire"></div>
+        <div><img src="https://dqzrr9k4bjpzk.cloudfront.net/images/11123270/1338676875.jpg" id="TooManyBones"></div>
+        <div><img src="https://dqzrr9k4bjpzk.cloudfront.net/images/11123270/1338675838.jpg" id="Hoplomachus"></div>
     </div><br><br>
     <form method="POST" action="https://www.freecodecamp.com/email-submit" id="form">
         <!-- POST used for private, GET used for public. GET will display in URL -->
